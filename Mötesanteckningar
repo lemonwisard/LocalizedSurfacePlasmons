@@ -1,0 +1,98 @@
+\documentclass[a4paper,11pt]{article}
+\pdfoutput=1 % if your are submitting a pdflatex (i.e. if you have
+             % images in pdf, png or jpg format)
+
+\usepackage{jheppub} % for details on the use of the package, please
+                     % see the JHEP-author-manual
+
+\usepackage[T1]{fontenc} % if needed
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage[bw]{mcode}
+\usepackage{hyperref}
+\usepackage{braket}
+\usepackage{float}
+\usepackage{leftidx}
+\usepackage{csquotes}
+\usepackage{dsfont}
+\usepackage{pgfplots}
+\usepackage{wrapfig}
+\DeclareMathOperator{\sinc}{sinc}
+\usepackage{tikz}
+\setlength{\parindent}{0pt}
+\usepackage{graphicx}				
+\graphicspath{ {images/} }   
+\usepackage{amsthm}
+\newtheorem*{mydef*}{Derricks's theorem}
+\newtheorem*{mydef1*}{Proof}
+\newtheorem*{mydef2*}{Paralell transport induced by the (U,V)-connection}
+\newtheorem*{mydef3*}{Proof of stability for real eigenfrequencies}
+\DeclareMathOperator{\Tr}{tr}
+\makeatletter
+\def\@fpheader{\relax}
+\makeatother
+\subheader{ }
+\title{\boldmath Summary meeting}
+\collaborationImg{\includegraphics[height=2cm]{uu_logo.png}}
+
+
+%% %simple case: 2 authors, same institution
+%% \author{A. Uthor}
+%% \author{and A. Nother Author}
+%% \affiliation{Institution,\\Address, Country}
+
+% more complex case: 4 authors, 3 institutions, 2 footnotes
+\author[a]{H. Laurell}
+
+
+
+% The "\note" macro will give a warning: "Ignoring empty anchor..."
+% you can safely ignore it.
+
+\affiliation[a]{Uppsala University,\\Lägerhyddsvägen 1, Sweden}
+
+
+% e-mail addresses: one for each author, in the same order as the authors
+\emailAdd{Hugo.Laurell.3760@student.uu.se}
+
+%\abstract{ }
+\begin{document}
+\maketitle
+\flushbottom
+%--------------------------------------------------------------------------------------------------------------------------------------------
+\section{Summary}
+\section{Suggested actions}
+\begin{itemize}
+\item Divide work between me and Johan
+\item Begin with theory part
+\end{itemize}
+\section{Questions}
+\begin{enumerate}
+\item Should we make a list of possible structures that can be made through lithography?
+\item What are our bandwidth?
+\item Is the KTH paper relevant?
+\item What is the functionality of the metamaterial we are going to design?
+\item What is sigma?
+\item In the Comsol guide what is dielectric loss?
+\end{enumerate}
+%--------------------------------------------------------------------------------------------------------------------------------------------
+\begin{thebibliography}{98}
+ \bibitem{a} 
+B. E. A. Saleh, M.C. Teich,
+``Fundamentals of photonics'' 
+\end{thebibliography}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
